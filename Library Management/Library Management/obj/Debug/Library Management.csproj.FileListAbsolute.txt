@@ -1,0 +1,28 @@
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\bin\Debug\Library Management.exe.config
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\bin\Debug\Library Management.exe
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\bin\Debug\Library Management.pdb
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\obj\Debug\Library Management.csproj.AssemblyReference.cache
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\obj\Debug\MainWindow.g.cs
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\obj\Debug\App.g.cs
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\obj\Debug\Library Management_MarkupCompile.cache
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\obj\Debug\Library Management_MarkupCompile.lref
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\obj\Debug\MainWindow.baml
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\obj\Debug\Library Management.g.resources
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\obj\Debug\Library_Management.Properties.Resources.resources
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\obj\Debug\Library Management.csproj.GenerateResource.cache
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\obj\Debug\Library Management.csproj.CoreCompileInputs.cache
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\obj\Debug\Library .0D70EAA2.Up2Date
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\obj\Debug\Library Management.exe
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\obj\Debug\Library Management.pdb
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\obj\Debug\BookDetailsWindow.g.cs
+C:\Users\artem\University\Proj_Desktop_Les\Lab_3\Library Management\Library Management\obj\Debug\BookDetailsWindow.baml
