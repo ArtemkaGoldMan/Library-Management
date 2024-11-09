@@ -22,6 +22,17 @@ namespace Library_Management
         public BookDetailsWindow()
         {
             InitializeComponent();
+            this.Loaded += BookDetailsWindow_Loaded;
+        }
+
+        private void BookDetailsWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            // Set the window size dynamically after it loads
+            this.Width = 500;  
+            this.Height =375; 
+
+            // Optionally, center the window on the screen
+            this.WindowStartupLocation = WindowStartupLocation.CenterScreen;
         }
     }
 }

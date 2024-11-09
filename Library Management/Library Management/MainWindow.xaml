@@ -5,32 +5,70 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Library_Management"
         mc:Ignorable="d"
-        Title="Library Management" Height="400" Width="800">
+        Title="Library Management" Height="400" Width="808" Background="#F5F5F5">
+
+    <Window.Resources>
+        <!-- Style for rounded buttons -->
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#4CAF50" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Padding" Value="10,5" />
+            <Setter Property="Margin" Value="0,0,0,10" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="1" 
+                                CornerRadius="8">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Style for ListView to add borders and padding -->
+        <Style TargetType="ListView">
+            <Setter Property="BorderBrush" Value="#CCCCCC" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="Padding" Value="10" />
+            <Setter Property="Background" Value="White" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="VerticalAlignment" Value="Stretch" />
+        </Style>
+    </Window.Resources>
+
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="200" />
+            <ColumnDefinition />
+            <ColumnDefinition Width="151" />
         </Grid.ColumnDefinitions>
 
-        <!--  displaying books  -->
-        <ListView Grid.Row="0" Grid.Column="0" ItemsSource="{Binding Books}" SelectedItem="{Binding SelectedBook}" Margin="0,0,10,0">
+        <!-- Displaying books -->
+        <ListView Grid.Row="0" Grid.Column="0" ItemsSource="{Binding Books}" 
+                  SelectedItem="{Binding SelectedBook}" Margin="0,0,10,0">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Title}" Width="200" />
                     <GridViewColumn Header="Author" DisplayMemberBinding="{Binding Author}" Width="200" />
-                    <GridViewColumn Header="Year" DisplayMemberBinding="{Binding YearPublished}" Width="100" />
+                    <GridViewColumn Header="Year" DisplayMemberBinding="{Binding YearPublished}" Width="200" />
                 </GridView>
             </ListView.View>
         </ListView>
 
-        <!--buttons -->
-        <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical">
-            <Button Command="{Binding AddBookCommand}" Content="Add Book" Margin="0,0,0,10" />
-            <Button Command="{Binding UpdateBookCommand}" Content="Update Book" Margin="0,0,0,10" />
-            <Button Command="{Binding DeleteBookCommand}" Content="Delete Book" />
+        <!-- Buttons for Add, Update, Delete -->
+        <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Center" Width="150">
+            <Button Command="{Binding AddBookCommand}" Content="Add Book" Width="150" />
+            <Button Command="{Binding UpdateBookCommand}" Content="Update Book" Width="150" />
+            <Button Command="{Binding DeleteBookCommand}" Content="Delete Book" Width="150" />
         </StackPanel>
     </Grid>
 </Window>

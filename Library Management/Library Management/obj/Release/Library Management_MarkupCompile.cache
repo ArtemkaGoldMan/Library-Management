@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\Marta Stankevich\ProgDesktopMob\Lab3\Library-Management\Library Management\Library Management\obj\Debug\
+C:\Users\Marta Stankevich\ProgDesktopMob\Lab3\Library-Management\Library Management\Library Management\obj\Release\
 Library_Management
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\Marta Stankevich\ProgDesktopMob\Lab3\Library-Management\Library Management\Library Management\App.xaml
 2411275686
 
@@ -16,5 +16,5 @@ C:\Users\Marta Stankevich\ProgDesktopMob\Lab3\Library-Management\Library Managem
 181254886384
 BookDetailsWindow.xaml;MainWindow.xaml;
 
-False
+True
 
