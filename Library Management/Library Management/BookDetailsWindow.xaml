@@ -61,7 +61,6 @@
             <RowDefinition Height="Auto" />
             <!-- Book Year Input -->
             <RowDefinition Height="10" />
-            <!-- Reduced Spacer row between Year and Save Button -->
             <RowDefinition Height="Auto" />
             <!-- Save Button -->
         </Grid.RowDefinitions>
